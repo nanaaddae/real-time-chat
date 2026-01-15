@@ -1,0 +1,35 @@
+/* Create new file: src/components/DeleteRoomModal.css */
+
+.delete-modal {
+  max-width: 500px;
+}
+
+.delete-warning {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--error);
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+.warning-text {
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.warning-text strong {
+  color: var(--error);
+}
+
+.btn-danger {
+  background-color: var(--error);
+  color: white;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background-color: #dc2626;
+}
