@@ -12,7 +12,7 @@ class WebSocketService {
     const token = localStorage.getItem('token');
     
     this.client = new Client({
-      webSocketFactory: () => new SockJS('http://localhost:8080/ws'),
+      webSocketFactory: () => new SockJS('https://real-time-chat-0ty1.onrender.com/ws'),
       connectHeaders: {
         Authorization: `Bearer ${token}`
       },
